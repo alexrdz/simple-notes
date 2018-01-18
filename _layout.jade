@@ -1,0 +1,23 @@
+doctype
+html
+  head
+    title Simple Notes
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="/css/index.css")
+  body
+    main
+      .container
+        .wrap
+          .grid
+            .col-12-12
+              h1.h4 Note Taker
+              .mb-20
+                a(href="/").mr-10 Start anew
+                | /
+                a(href="copy").copy-link.ml-10 Copy the URL
+          .container
+            .grid
+              .col-12-12
+                .notes(contenteditable="true").mt-40
+  script(src="clipboard.min.js")
+  script(src="app.js")

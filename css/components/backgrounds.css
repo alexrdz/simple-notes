@@ -1,0 +1,39 @@
+
+/*Backgrounds*/
+.bg-image-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center {
+  background-position: center center;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.8);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.overlay-1 {
+  background-color: rgba(0,0,0,0.6);
+}
+.overlay-2 {
+  background-color: rgba(0,0,0,0.4);
+}
+.overlay-3 {
+  background-color: rgba(0,0,0,0.2);
+}
+.overlay-4 {
+  background-color: rgba(0,0,0,0.1);
+}

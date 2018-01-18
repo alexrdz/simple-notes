@@ -1,0 +1,30 @@
+@import './vars.css';
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: 'Crimson Text', serif;
+  font-size: 140%;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red);
+}
+
+.notes {
+}
+.notes:focus {
+  animation: fade 1.5s;
+  border: none;
+  outline: none;
+}
+@keyframes fade {
+  0% {
+    background: #e2e2e2;
+  }
+  100% {
+    background: var(--white);
+  }
+}
